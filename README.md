@@ -25,7 +25,7 @@ This repository provides an example setup for running Jenkins with Docker using 
 3. Start the Jenkins and Docker containers:
 
    ```bash
-   docker-compose up -d
+   docker compose up -d
    ```
 
 4. Access Jenkins:
@@ -43,5 +43,5 @@ This repository provides an example setup for running Jenkins with Docker using 
 To stop and remove the containers and volumes created by Docker Compose, run:
 
 ```bash
-docker-compose down -v
+docker compose down -v
 ```
